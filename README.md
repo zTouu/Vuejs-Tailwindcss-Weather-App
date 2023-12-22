@@ -9,8 +9,10 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Technologies Used
 **Vue.js:** A progressive JavaScript framework for building user interfaces.
+
 **OpenWeatherMap API:** Provides weather data for any location on Earth.
-**HTML5 and CSS3:** Markup and styling for the user interface.
+
+**HTML5 and TailwindCSS:** Markup and styling for the user interface.
 
 ## Recommended IDE Setup
 
