@@ -14,10 +14,12 @@
         v-if="mapboxSearchResults"
       >
         <p 
-          v-if="searchError">Sorry, somthings went wrong, please try again.
+          v-if="searchError">
+          Sorry, somthings went wrong, please try again.
         </p>
         <p 
-          v-if="!serverError && mapboxSearchResults.length === 0"
+          class="py-2"
+          v-if="!searchError && mapboxSearchResults.length === 0"
         > No results match your query, try a different term.
         </p>
         <template v-else>
@@ -32,6 +34,9 @@
         </template>
       </ul>
     </div>
+    <div class="flex flex-col gap-4">
+  
+    </div>
   </main>
 </template>
 
@@ -39,6 +44,7 @@
 import { ref } from 'vue';
 import axios from "axios";
 import { useRouter } from 'vue-router';
+import CityList from '@/components/CityList.vue';
 
 const router = useRouter();
 const previewCity = (searchResult) => {
