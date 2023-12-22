@@ -1,6 +1,16 @@
-# vue-project
+# Vue Weather App
 
 This template should help get you started developing with Vue 3 in Vite.
+
+## Features
+**Current Weather:** View the current temperature, weather description, and other relevant information for a chosen location.
+**Search Functionality:** Enter the name of a city or location to get the latest weather updates.
+**Responsive Design:** The app is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
+
+## Technologies Used
+**Vue.js:** A progressive JavaScript framework for building user interfaces.
+**OpenWeatherMap API:** Provides weather data for any location on Earth.
+**HTML5 and CSS3:** Markup and styling for the user interface.
 
 ## Recommended IDE Setup
 
